@@ -1,0 +1,57 @@
+section {
+  width: 700px;
+/*  font-family: "Courier New", monospaced;*/
+  font-family: Cantarell, "Bitstream Vera Sans",'Droid Sans', Ubuntu, 'DejaVu Sans', Arial, sans-serif;
+  font-size: 12pt;
+}
+
+p {
+  text-align: justify;
+  -ms-word-break: break-all;
+      word-break: break-all;
+      word-break: break-word;
+  -o-hyphens: auto;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+
+h1 {
+  font-size: 16pt;
+}
+
+h2 {
+ font-size: 14pt;
+}
+
+.center {
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right:0px;
+}
+
+.timespan {
+  color: #A52A2A;
+}
+
+.role {
+  color: #2929a6;
+}
+
+.protocol {
+  color: #29a629;
+}
+
+.link {
+  font-size: xx-small;
+  vertical-align: super;
+}
+
+#rightside {
+  float: right;
+  padding: 10px;
+}
