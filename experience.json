@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Education",
+        "entries": [
+            {
+                "timespan": "2013-2013",
+                "place": [
+                    {
+                        "name": "SUNY Buffalo",
+                        "link": "http://www.buffalo.edu"
+                    },
+                    {
+                        "name": "PhoneLab",
+                        "link": "http://www.phone-lab.org"
+                    }
+                ],
+                "title": "visiting researcher",
+                "description": "Deriving ambient temperature from battery temperature as well as the Android USB stack"
+            },
+            {
+                "timespan": "2010-2013",
+                "place": [
+                    {
+                        "name": "IT University of Copenhagen",
+                        "link": "http://www.itu.dk"
+                    }
+                ],
+                "title": "PhD student",
+                "description": "Testbed for evaluating energy harvesting regimes in wireless sensor networks, and a framework for programming them"
+            },
+            {
+                "timespan": "2002-2009",
+                "place": [
+                    {
+                        "name": "University of Copenhagen, Computer Science",
+                        "link": "http://www.diku.dk"
+                    }
+                ],
+                "title": "BSc and MSc student",
+                "description": "Fairly standard computer science stuff with optional courses mainly in distributed systems"
+            }
+        ]
+    }
+]
