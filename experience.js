@@ -37,10 +37,12 @@ get('experience.json', function (contents) {
         console.log(lines)
         id = {
             "Education":    "exp:edu",
-            "Academic":     "exp:aca",
+            "Academia":     "exp:aca",
             "Professional": "exp:pro",
         }[expclass["name"]];
         element = document.getElementById(id);
+        console.log(expclass["name"])
+        console.log(id)
         console.log(element)
         element.innerHTML = lines;
     }

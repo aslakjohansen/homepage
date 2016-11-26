@@ -40,5 +40,93 @@
                 "description": "Fairly standard computer science stuff with optional courses mainly in distributed systems"
             }
         ]
+    },
+    {
+        "name": "Academia",
+        "entries": [
+            {
+                "timespan": "2016-????",
+                "place": [
+                    {
+                        "name": "UC Berkeley",
+                        "link": "http://www.berkeley.edu"
+                    },
+                    {
+                        "name": "Software Defined Buildings",
+                        "link": "http://sdb.cs.berkeley.edu/sdb/"
+                    }
+                ],
+                "title": "visiting researcher",
+                "description": "Metadata for building services"
+            },
+            {
+                "timespan": "2015-2018",
+                "place": [
+                    {
+                        "name": "University of Southern Denmark",
+                        "link": "http://www.sdu.dk"
+                    },
+                    {
+                        "name": "Centre for Energy Informatics",
+                        "link": "http://www.sdu.dk/en/Om_SDU/Institutter_centre/CentreForEnergyInformatics"
+                    }
+                ],
+                "title": "postdoc",
+                "description": "Services for improving energy efficiency in buildings without sacrificing occupant comfort"
+            },
+            {
+                "timespan": "2013-2014",
+                "place": [
+                    {
+                        "name": "IT University of Copenhagen",
+                        "link": "http://itu.dk"
+                    }
+                ],
+                "title": "postdoc",
+                "description": "Energy efficiency in buildings"
+            },
+            {
+                "timespan": "2008-2009",
+                "place": [
+                    {
+                        "name": "University of Copenhagen",
+                        "link": "http://www.ku.dk"
+                    },
+                    {
+                        "name": "Bioinformatics Centre",
+                        "link": "http://www.binf.ku.dk"
+                    }
+                ],
+                "title": "student worker",
+                "description": "Porting of code for indexing the human genome (C with off-sized integers)"
+            }
+        ]
+    },
+    {
+        "name": "Professional",
+        "entries": [
+            {
+                "timespan": "2010-2013",
+                "place": [
+                    {
+                        "name": "DELTA",
+                        "link": "http://dk.madebydelta.com"
+                    }
+                ],
+                "title": "specialist, PhD student",
+                "description": "Testbed for evaluating energy harvesting regimes in wireless sensor networks, and a framework for programming them"
+            },
+            {
+                "timespan": "2000-2001",
+                "place": [
+                    {
+                        "name": "LM Ericsson Denmark",
+                        "link": "http://www.ericsson.com"
+                    }
+                ],
+                "title": "student worker",
+                "description": "TCL, Perl and shell scripting as well as client/server system construction"
+            }
+        ]
     }
 ]
