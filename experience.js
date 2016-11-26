@@ -34,16 +34,12 @@ get('experience.json', function (contents) {
         lines += "</ul>";
         
         // inject
-        console.log(lines)
         id = {
             "Education":    "exp:edu",
             "Academia":     "exp:aca",
             "Professional": "exp:pro",
         }[expclass["name"]];
         element = document.getElementById(id);
-        console.log(expclass["name"])
-        console.log(id)
-        console.log(element)
         element.innerHTML = lines;
     }
 });
