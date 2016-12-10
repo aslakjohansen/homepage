@@ -1,0 +1,8 @@
+[
+    {
+        "category": "conference",
+        "title":    "Service and Experiment: Towards a Perpetual Sensor Network Testbed without Backchannel",
+        "authors":  ["aslak", "thomas", "philippe"],
+        "abstract": "The sensor network testbeds available today rely on a communication channel different from the mote radio - a backchannel - to facilitate mote reprogramming, health monitoring and performance analysis. Such backchannels are either supported as wired communication channels (USB or Ethernet), or via an extra board coupled to the mote under test and thus introduce significant constraint on the testbed setup and on the mote power budget. With Greenlab, we wish to study the performance behavior of outdoor sensor networks where energy is harvested from the environment. We thus cannot rely on a backchannel. In this paper, we present the design of the central mechanisms needed to support Greenlab and their implementation in TinyOS. These mechanisms are based on a dichotomy between a service mode, where each mote is participating in testbed management, and an experimentation mode, where each mote is fully participating in a user-defined experiment. We evaluate performance by analyzing the overhead our approach introduces."
+    }
+]
