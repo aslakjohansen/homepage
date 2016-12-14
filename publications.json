@@ -1,8 +1,50 @@
 [
     {
-        "category": "conference",
+        "venue":    "mass11",
+        "type":     "paper",
         "title":    "Service and Experiment: Towards a Perpetual Sensor Network Testbed without Backchannel",
         "authors":  ["aslak", "thomas", "philippe"],
-        "abstract": "The sensor network testbeds available today rely on a communication channel different from the mote radio - a backchannel - to facilitate mote reprogramming, health monitoring and performance analysis. Such backchannels are either supported as wired communication channels (USB or Ethernet), or via an extra board coupled to the mote under test and thus introduce significant constraint on the testbed setup and on the mote power budget. With Greenlab, we wish to study the performance behavior of outdoor sensor networks where energy is harvested from the environment. We thus cannot rely on a backchannel. In this paper, we present the design of the central mechanisms needed to support Greenlab and their implementation in TinyOS. These mechanisms are based on a dichotomy between a service mode, where each mote is participating in testbed management, and an experimentation mode, where each mote is fully participating in a user-defined experiment. We evaluate performance by analyzing the overhead our approach introduces."
+        "abstract": "The sensor network testbeds available today rely on a communication channel different from the mote radio - a backchannel - to facilitate mote reprogramming, health monitoring and performance analysis. Such backchannels are either supported as wired communication channels (USB or Ethernet), or via an extra board coupled to the mote under test and thus introduce significant constraint on the testbed setup and on the mote power budget. With Greenlab, we wish to study the performance behavior of outdoor sensor networks where energy is harvested from the environment. We thus cannot rely on a backchannel. In this paper, we present the design of the central mechanisms needed to support Greenlab and their implementation in TinyOS. These mechanisms are based on a dichotomy between a service mode, where each mote is participating in testbed management, and an experimentation mode, where each mote is fully participating in a user-defined experiment. We evaluate performance by analyzing the overhead our approach introduces.",
+        "publisherpage": "http://dl.acm.org/citation.cfm?id=2085760"
+    },
+    {
+        "venue":    "buildsys16",
+        "type":     "demo",
+        "title":    "Demonstrating OccuRE: an Occupancy REasoning Platform for Occupancy-driven Applications: Demo Abstract",
+        "authors":  ["fisayo", "aslak", "emil", "mikkel"],
+        "abstract": "Occupant behavior determines a large share of the energy consumption of buildings. Software applications driven by information about occupant behavior provide a mean to optimize this share. However, existing systems for sensing occupancy behavior provide technology-specific APIs statically coupled to the type of computed occupancy information. Software platforms for developing applications for buildings lack abstractions for occupancy behavior. Therefore, technology lock in and lack of proper abstractions hamper the development of occupancy-driven applications. In this demonstration we will demo OccuRE, a stream-based Occupancy REasoning platform. OccuRE provides a technology agnostic API for accessing occupancy information to significantly improve portability. The platform uses a computation model with dynamic composition to calculate and reason about occupancy behavior. Together, these elements remove that developers need to deal with technology-specific processing of sensor data to ease application development.",
+        "publisherpage": "http://dl.acm.org/citation.cfm?id=2996402"
+    },
+    {
+        "venue":    "cbse16",
+        "type":     "paper",
+        "title":    "OccuRE: An Occupancy REasoning Platform for Occupancy-Driven Applications",
+        "authors":  ["mikkel", "aslak", "fisayo", "emil"],
+        "abstract": "Occupant behavior determines a large share of the energy consumption of buildings. Software applications driven by information about occupant behavior provide a mean to optimize this share. However, existing systems for sensing occupancy behavior provide technology-specific APIs statically coupled to the type of computed occupancy information. Software platforms for developing applications for buildings do also not provide abstractions for occupancy behavior. Therefore, technology lock in and lack of proper abstractions wreck the development of occupancy-driven applications. In this paper we present the design, implementation and evaluation of OccuRE, a stream-based Occupancy REasoning platform. OccuRE provides a technology agnostic API for accessing occupancy information to significantly improve portability. The platform uses a component-based computation model with dynamic composition to calculate and reason about occupancy behavior. Together these elements avoid that developers need to deal with technology-specific processing of sensor data to ease application development. Through micro-benchmarks we show that OccuRE successfully and efficiently computes occupancy information for technology-heterogeneous building instrumentations. We use the development of three prototype applications to demonstrate that the API of OccuRE (i) enables several types of occupancy-driven applications, (ii) that the applications – by using the interface – achieve portability in regards to occupancy information computation and (iii) that the application code avoids handling sensor data processing.",
+        "publisherpage": "http://ieeexplore.ieee.org/document/7497429/"
+    },
+    {
+        "venue":    "perenergy16",
+        "type":     "paper",
+        "title":    "Towards a metadata discovery, maintenance and validation process to support applications that improve the energy performance of buildings",
+        "authors":  ["emil", "aslak", "mikkel", "emil"],
+        "abstract": "Using pervasive computing at a scale for improving the energy performance of buildings requires that applications are portable among buildings. One problem in enabling portable applications is metadata about building infrastructures. The challenge is that there are multiple ways to annotate sensor data and actuation points, which makes it difficult to have a proper level of abstraction. Another problem is the amount of insufficient or missing metadata. This paper presents an analysis of the leading software platforms for sensor infrastructures with respect to how metadata is handled. Furthermore, the paper also presents an analysis of the leading metadata formats with respect to how they support building applications. Based on the analysis, we conclude that there is a need for a structured way to manage metadata in buildings. Therefore we present our vision of a process view on discovery, maintenance and validation of metadata in buildings.",
+        "publisherpage": "http://ieeexplore.ieee.org/abstract/document/7457145/"
+    },
+    {
+        "venue":    "buildsys16",
+        "type":     "paper",
+        "title":    "Brick: Towards a Unified Metadata Schema For Buildings",
+        "authors":  ["bharath", "arka", "gabe", "jingkun", "joshua", "denzi", "aslak", "jason", "joern", "yuvraj", "mario", "dave", "rajesh", "mikkel", "mani", "kamin"],
+        "abstract": "Commercial buildings have long since been a primary target for applications from a number of areas: from cyber-physical systems to building energy use to improved human interactions in built environments. While technological advances have been made in these areas, such solutions rarely experience widespread adoption due to the lack of a common descriptive schema which would reduce the now-prohibitive cost of porting these applications and systems to different buildings. Recent attempts have sought to address this issue through data standards and metadata schemes, but fail to capture the set of relationships and entities required by real applications. Building upon these works, this paper describes Brick, a uniform schema for representing metadata in buildings. Our schema defines a concrete ontology for sensors, subsystems and relationships among them, which enables portable applications. We demonstrate the completeness and effectiveness of Brick by using it to represent the entire vendor-specific sensor metadata of six diverse buildings across different campuses, comprising 17,700 data points, and running eight complex unmodified applications on these buildings.",
+        "publisherpage": "http://dl.acm.org/citation.cfm?id=2993577"
+    },
+    {
+        "venue":    "buildsys16",
+        "type":     "demo",
+        "title":    "Portable Queries Using the Brick Schema for Building Applications: Demo Abstract",
+        "authors":  ["bharath", "arka", "gabe", "jingkun", "joshua", "denzi", "aslak", "jason", "joern", "yuvraj", "mario", "dave", "rajesh", "mikkel", "mani", "kamin"],
+        "abstract": "Sensorized commercial buildings are a rich target for building a new class of applications that improve operational and energy efficiency of building operations that take into account human activities. Such applications, however, rarely experience widespread adoption due to the lack of a common descriptive schema that would enable porting these applications and systems to different buildings. Our demo presents Brick [4], a uniform schema for representing metadata in buildings. Our schema defines a concrete ontology for sensors, subsystems and relationships among them, which enables portable applications. Using a web application, we will demonstrate real buildings that have been mapped to the Brick schema, and show application queries that extracts relevant metadata from these buildings. The attendees would be able to create example buildings and write their own queries.",
+        "publisherpage": "http://dl.acm.org/citation.cfm?id=2996411"
     }
 ]
