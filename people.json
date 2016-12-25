@@ -3,6 +3,22 @@
         "Full":        "Aslak Johansen",
         "Abbreviated": "A. Johansen"
     },
+    "arka": {
+        "Full":        "Arka Bhattacharya",
+        "Abbreviated": "A. Bhattacharya"
+    },
+    "bharath": {
+        "Full":        "Bharathan Balaji",
+        "Abbreviated": "B. Balaji"
+    },
+    "dave": {
+        "Full":        "David Culler",
+        "Abbreviated": "D. Culler"
+    },
+    "denzi": {
+        "Full":        "Dezhi Hong",
+        "Abbreviated": "D. Hong"
+    },
     "emil": {
         "Full":        "Emil Holmegaard",
         "Abbreviated": "E. Holmegaard"
@@ -10,6 +26,38 @@
     "fisayo": {
         "Full":        "Fisayo Caleb Sangoboye",
         "Abbreviated": "F. Sangoboye"
+    },
+    "gabe": {
+        "Full":        "Gabriel Fierro",
+        "Abbreviated": "G. Fierro"
+    },
+    "jason": {
+        "Full":        "Jason Koh",
+        "Abbreviated": "J. Koh"
+    },
+    "jingkun": {
+        "Full":        "Jingkun Gao",
+        "Abbreviated": "J. Gao"
+    },
+    "joern": {
+        "Full":        "Joern Ploennigs",
+        "Abbreviated": "J. Ploennigs"
+    },
+    "joshua": {
+        "Full":        "Joshua Gluck",
+        "Abbreviated": "J. Gluck"
+    },
+    "kamin": {
+        "Full":        "Kamin Whitehouse",
+        "Abbreviated": "K. Whitehouse"
+    },
+    "mani": {
+        "Full":        "Mani Srivastava",
+        "Abbreviated": "M. Srivastava"
+    },
+    "mario": {
+        "Full":        "Mario Berges",
+        "Abbreviated": "M. Berges"
     },
     "mikkel": {
         "Full":        "Mikkel Baun Kjærgaard",
@@ -19,9 +67,17 @@
         "Full":        "Philippe Bonnet",
         "Abbreviated": "P. Bonnet"
     },
+    "rajesh": {
+        "Full":        "Rajesh Gupta",
+        "Abbreviated": "R. Gupta"
+    },
     "thomas": {
         "Full":        "Thomas Sørensen",
         "Abbreviated": "T. Sørensen"
+    },
+    "yuvraj": {
+        "Full":        "Yuvraj Agarwal",
+        "Abbreviated": "Y. Agarwal"
     }
 }
 
