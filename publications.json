@@ -27,7 +27,7 @@
         "venue":    "perenergy16",
         "type":     "paper",
         "title":    "Towards a metadata discovery, maintenance and validation process to support applications that improve the energy performance of buildings",
-        "authors":  ["emil", "aslak", "mikkel", "emil"],
+        "authors":  ["emil", "aslak", "mikkel"],
         "abstract": "Using pervasive computing at a scale for improving the energy performance of buildings requires that applications are portable among buildings. One problem in enabling portable applications is metadata about building infrastructures. The challenge is that there are multiple ways to annotate sensor data and actuation points, which makes it difficult to have a proper level of abstraction. Another problem is the amount of insufficient or missing metadata. This paper presents an analysis of the leading software platforms for sensor infrastructures with respect to how metadata is handled. Furthermore, the paper also presents an analysis of the leading metadata formats with respect to how they support building applications. Based on the analysis, we conclude that there is a need for a structured way to manage metadata in buildings. Therefore we present our vision of a process view on discovery, maintenance and validation of metadata in buildings.",
         "publisherpage": "http://ieeexplore.ieee.org/abstract/document/7457145/"
     },
